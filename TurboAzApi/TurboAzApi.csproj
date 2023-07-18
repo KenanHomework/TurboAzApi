@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Reference Include="CommonServiceLocator">
+		  <HintPath>Simila\CommonServiceLocator.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Simila.Core">
+		  <HintPath>..\Simila\Simila.Core.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.Abstractions">
+		  <HintPath>..\Simila\Unity.Abstractions.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.Configuration">
+		  <HintPath>..\Simila\Unity.Configuration.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.Container">
+		  <HintPath>..\Simila\Unity.Container.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.Interception">
+		  <HintPath>..\Simila\Unity.Interception.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.Interception.Configuration">
+		  <HintPath>..\Simila\Unity.Interception.Configuration.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.RegistrationByConvention">
+		  <HintPath>..\Simila\Unity.RegistrationByConvention.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+	  <Reference Include="Unity.ServiceLocation">
+		  <HintPath>..\Simila\Unity.ServiceLocation.dll</HintPath>
+		  <Private>True</Private>
+	  </Reference>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>
